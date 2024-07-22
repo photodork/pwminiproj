@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.card{
+    height: 264px;
+    width: 200px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate();
+    border-radius: 20px;
+    overflow: hidden;
+}
+#c1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#c2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#c3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#c4{
+    transform: translate(-50%,-50%);
+}
+#c5{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#c6{
+    transform: translate(-50%,-50%) rotate(-50deg);
+}
+#c7{
+    transform: translate(-50%,-50%) rotate(-60deg);
+}
+#c8{
+    transform: translate(-50%,-50%) rotate(-70deg);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#c1:hover{
+    z-index: 10;
+}
+#c2:hover{
+    z-index: 10;
+}
+#c3:hover{
+    z-index: 10;
+}
+#c5:hover{
+    z-index: 10;
+}
+#c6:hover{
+    z-index: 10;
+}
+#c7:hover{
+    z-index: 10;
+}
+#c8:hover{
+    z-index: 10;
+}

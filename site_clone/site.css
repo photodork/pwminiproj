@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    background-color:beige;
+    position:fixed;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+#fakehead{
+    height: 12vh;
+    width: 100vw;
+}
+ul{
+    color: #032D60;
+    margin-right: 38px;
+}
+ul:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+#contact{
+    color:#032D60;
+    text-align: center;
+    margin-left: 53px;
+    margin-right: 23px;
+    overflow:hidden;
+}
+#navlogo{
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 47px;
+}
+.login{
+    display: flex;
+    padding: 12px;
+    margin-left: 23px;
+    margin-right: 33px;
+}
+.ico{
+    padding: 10px;
+    margin-left: 23px;
+}
+.ico:hover{
+    background-color: skyblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#button{
+    width: 85px; height: 40px; 
+    border-radius: 5px; 
+    background-color: #228B22; color: white;
+    font-family:sans-serif;
+    border: 0;
+}
+#button:hover{
+    cursor:pointer; 
+    background-color: #454B1B;
+}
+.login:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: skyblue;
+}
+
+
+#announce{
+    justify-content: center;
+    display: flex;
+    background-color: #032D60; color: white;
+    width: 100vw;
+    height: 7vh;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#reportlink:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+#reportlink{
+    padding-left: 30px;
+    color: white;
+}
+
+
+#left{
+    height: 55vh;
+    width: 40vw;
+    text-align: center;
+    background-color: white;
+}
+#left h1{
+    color: #032D60;
+    font-size: 50px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+#left p{
+    margin-top: 5px;
+    font-size:x-large;
+    text-align: left;
+    padding: 10px;
+}
+#free{
+    font: 16px;
+    font-family: sans-serif;
+    padding: 1px 32px;
+    background-color: #0096FF;
+    color: white;
+    border-radius: 5px;
+    border-color: #0096FF;
+    margin-top: 20px;
+    margin-right: 15px; 
+}
+#free:hover{
+    background-color: #1434A4;
+    cursor: pointer;
+    border-color: #1434A4;
+}
+#demo{
+    font: 16px;
+    font-family: sans-serif;
+    padding: 1px 32px;
+    background-color: white;
+    color: #0096FF;
+    border-color: #0096FF;
+    border-radius: 5px;
+}
+#demo:hover{
+    background-color: #EAF5FE;
+    cursor: pointer;
+    color: #1434A4;
+    border-color: #1434A4;
+}
+
+#right iframe{
+    object-fit: cover;
+    z-index: 10;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#article{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    background-color: beige;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=1536,480);
+}
+
+
+#tagline{
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: 600;
+    color: #032D60;
+    background-color: white;
+}
+
+
+#fix{
+    display: flex;
+    background-color: #0096FF;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#fix img{
+    height: 50px;
+    border-radius: 50%;
+}
+#fix span{
+    color: white;
+    padding-left: 7px;
+}
+
+
+#page2{
+    height: 65vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.cards{
+    height: 330px;
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: -3px 3px 12px black;
+}
+#up1{
+    width: 250px;
+    overflow:hidden;
+    height: 130px;
+}
+#up1 img{
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+}
+#up1{
+    width: 250px;
+    overflow:hidden;
+    height: 130px;
+}
+#up1 img{
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+}
+#up2{
+    width: 250px;
+    overflow:hidden;
+    height: 130px;
+}
+#up2 img{
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+}
+#up3{
+    width: 250px;
+    overflow:hidden;
+    height: 130px;
+}
+#up3 img{
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+}
+#up4{
+    width: 250px;
+    overflow:hidden;
+    height: 130px;
+}
+#up4 img{
+    width: 250px;
+    height: 130px;
+    border-radius: 25px;
+}
+.down{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: white;
+}
+.down h3{
+    padding-top: 45px;
+    padding-left: 20px;
+    color: #032D60;
+}
+.down p{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.down a{
+    font-size: large;
+    color: #032D60;
+}
+.down a:hover{
+    color: #0096FF;
+    text-decoration: none;
+}
+
+#f1{
+    display: flex;
+}
+#foot{
+    width: 100vw;
+    height: 15vh;
+    background-color: #032D60;
+}
+#ww{
+    padding-top: 20px;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+#foot a{
+    padding-top: 20px;
+    color: white;
+}
+#foot a:hover{
+    color: #0096FF;
+    cursor: pointer;
+}
+.com{
+    padding-right: 20px;
+}
+#last{
+    color: white;
+    padding-top: 20px;
+    padding-left: 230px;
+}
+
+#walt{
+    padding-top: 20px;
+    color: white;
+    padding-left: 50px;
+    cursor: pointer;
+}
+#witt{
+    padding-top: 20px;
+    color: white;
+    padding-right: 50px;
+    cursor: pointer;
+}
